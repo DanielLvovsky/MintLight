@@ -1,0 +1,57 @@
+{
+    "name": "mintlight-theme",
+    "displayName": "MintLight Theme",
+    "description": "A modern and minimalist light theme with a mint color palette for all coders out there.",
+    "version": "0.0.1",
+    "publisher": "daniel-lvovsky",
+    "author":{
+        "name": "Daniel Lvovsky"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "bugs": {
+        "url": "https://github.com/DanielLvovsky/MintLight"
+    },
+    "repository": {
+        "url": "https://github.com/DanielLvovsky/MintLight/issues"
+    },
+    "galleryBanner": {
+        "color": "#74C4AB",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ], 
+    "keywords": [
+        "MintLight Theme",
+        "Light Theme",
+        "VS Code Theme",
+        "Modern",
+        "Light Mode",
+        "Daniel Lvovsky",
+        "mint",
+        "green",
+        "blue",
+        "light blue",
+        "dark blue",
+        "minimalist",
+        "orange",
+        "retro",
+        "dark green",
+        "vibrant",
+        "javascript",
+        "python",
+        "css"
+    ],
+    "icon":"images/icon/logo.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "MintLight Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Mint Theme-color-theme.json"
+            }
+        ]
+    }
+}
